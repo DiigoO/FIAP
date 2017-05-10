@@ -1,12 +1,8 @@
-package br.com.fiap;
+package br.com.fiap.Aula1;
 
-public class Main {
+public class ex1 {
 
 	public static void main(String[] args) {
-		System.out.println("Olá Mundo!");
-		Aluno aluno = new Aluno(10, "Rodrigo");
-		System.out.println(aluno);
-
 		int n = 12;
 		String m = "";
 		while (n > 0) {

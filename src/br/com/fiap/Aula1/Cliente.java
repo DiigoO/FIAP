@@ -1,4 +1,4 @@
-package br.com.fiap;
+package br.com.fiap.Aula1;
 
 public class Cliente {
 
