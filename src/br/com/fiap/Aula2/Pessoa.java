@@ -18,13 +18,6 @@ public class Pessoa
 	}
 	public String getCPF() {
 		return cpf;
-	}
-	@Override
-	public String toString() {
-		return "Pessoa [nome=" + nome + ", cpf=" + cpf + ", getCpf()=" + getCpf() + ", getNome()=" + getNome()
-				+ ", getCPF()=" + getCPF() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ ", toString()=" + super.toString() + "]";
-	}
-	
+	}	
 	
 }
