@@ -12,9 +12,8 @@ public class ContaPoupanca extends ContaBancaria {
 			throw new SaldoInsuficienteException("Saldo insuficiente!");
 		}
 		
-		LocalDate agora = LocalDate.now();
-		long anos = ChronoUnit.YEARS.between(dataCriacao, agora);
-		if(anos < 1){
+		long anos = ChronoUnit.MONTHS.between(dataCriacao, LocalDate.now());
+		if(anos < 12){
 			saldo-=valor-0.10;
 		}
 	}
