@@ -1,4 +1,4 @@
-package Aula3;
+package br.com.fiap.Aula3;
 
 public class SaldoInsuficienteException extends Exception{
 	public SaldoInsuficienteException(String exception){

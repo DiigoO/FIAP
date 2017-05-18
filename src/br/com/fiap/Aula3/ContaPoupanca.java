@@ -1,4 +1,4 @@
-package Aula3;
+package br.com.fiap.Aula3;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
